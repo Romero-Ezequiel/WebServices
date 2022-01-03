@@ -22,5 +22,14 @@ namespace WebServicesDemo
         {
             return "Hola a todos";
         }
+
+        //Metodo la suma de dos numeros
+        //La palabra reservada WebMethod nos sirve para poder visualizar los metodos
+        [WebMethod]
+        public int Suma(int num1, int num2) 
+        {
+            return num1 + num2;
+        }
+
     }
 }
